@@ -59,7 +59,7 @@ import {
 import { verifyReceipt, type SendState } from "./verify.js";
 import { B20_ABI, MEMO_EVENT, MEMO_TOPIC0, TRANSFER_TOPIC0 } from "./events.js";
 
-const SERVER_VERSION = "0.2.0";
+const SERVER_VERSION = "0.2.1";
 const RECEIPT_TIMEOUT_MS = 120_000;
 
 // ---- boot ------------------------------------------------------------------

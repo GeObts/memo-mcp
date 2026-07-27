@@ -1,6 +1,6 @@
 {
   "name": "memo-mcp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "MCP server for attaching on-chain memos to Base B20 payments ($MEMO). Lets AI agents send and read memos via transferWithMemo.",
   "type": "module",
   "bin": {
