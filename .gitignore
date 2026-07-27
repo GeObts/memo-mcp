@@ -3,3 +3,11 @@ dist/
 .env
 *.log
 .DS_Store
+
+# Never commit key material. Deliberately broad — a private key that reaches a
+# public repo is compromised the moment it is pushed.
+*.key
+*.pem
+
+# Local spend ledger, if it is kept inside the repo rather than ~/.memo-mcp
+spend.json

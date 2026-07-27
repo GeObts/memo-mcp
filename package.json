@@ -1,6 +1,6 @@
 {
   "name": "memo-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP server for attaching on-chain memos to Base B20 payments ($MEMO). Lets AI agents send and read memos via transferWithMemo.",
   "type": "module",
   "bin": {
@@ -9,7 +9,9 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "tsx src/index.ts"
+    "dev": "tsx src/index.ts",
+    "test": "node --import tsx --test \"tests/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit -p tsconfig.test.json"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
