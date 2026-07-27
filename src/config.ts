@@ -12,7 +12,7 @@ import { BASE_CHAIN_ID } from "./invariants.js";
 import { DEFAULT_LOG_CHUNK_BLOCKS } from "./bounds.js";
 
 /** $MEMO on Base mainnet. Human-readable view: https://memogram.pages.dev */
-export const MEMO_DEFAULT_CA = "0xb20000000000000000000001bb894ff0c9e82bf3";
+export const MEMO_DEFAULT_CA = "0xB20000000000000000000001BB894FF0C9e82bf3";
 export const DEFAULT_RPC_URL = "https://mainnet.base.org";
 
 export interface MemoConfig {

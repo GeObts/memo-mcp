@@ -4,7 +4,7 @@ import { pad, type Address, type Hex } from "viem";
 import { verifyReceipt, type ExpectedSend, type ReceiptLike } from "../src/verify.js";
 import { MEMO_TOPIC0, TRANSFER_TOPIC0 } from "../src/events.js";
 
-const TOKEN = "0xb20000000000000000000001bB894FF0c9E82bF3" as Address;
+const TOKEN = "0xB20000000000000000000001BB894FF0C9e82bf3" as Address;
 const OTHER_TOKEN = "0x4200000000000000000000000000000000000006" as Address;
 const SIGNER = "0x56A9B5c20a960B15331419D4eC608DBCFd83A01E" as Address;
 const RECIPIENT = "0x75C83356987c8d813829D9FBb5DE504b547750A6" as Address;

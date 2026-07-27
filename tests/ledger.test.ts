@@ -6,7 +6,7 @@ import { join } from "node:path";
 import { getAddress } from "viem";
 import { createLedger, createMemoryLedger, LEDGER_VERSION } from "../src/ledger.js";
 
-const TOKEN = getAddress("0xb20000000000000000000001bb894ff0c9e82bf3");
+const TOKEN = getAddress("0xB20000000000000000000001BB894FF0C9e82bf3");
 const OTHER = getAddress("0x4200000000000000000000000000000000000006");
 const one = 10n ** 18n;
 

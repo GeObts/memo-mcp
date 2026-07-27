@@ -12,7 +12,7 @@ import {
   WRITE_ABI,
 } from "../src/invariants.js";
 
-const TOKEN = getAddress("0xb20000000000000000000001bb894ff0c9e82bf3");
+const TOKEN = getAddress("0xB20000000000000000000001BB894FF0C9e82bf3");
 const OTHER_TOKEN = getAddress("0x4200000000000000000000000000000000000006");
 const RECIPIENT = getAddress("0x75c83356987c8d813829d9fbb5de504b547750a6");
 const MEMO_HEX =

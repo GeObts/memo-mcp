@@ -13,7 +13,7 @@ event Memo(address indexed caller, bytes32 indexed memo)
 
 The `Memo` event is emitted **immediately after** the `Transfer`, so any memo joins back to the payment it annotates via `logIndex - 1`. This server does that join for you and exposes three tools: read memos, send a memo with a payment, and look up token info.
 
-Default token: **`$MEMO`** — `0xb20000000000000000000001bb894ff0c9e82bf3` (Base mainnet). Override with `MEMO_TOKEN_ADDRESS` or the per-call `token` param to operate on any B20.
+Default token: **`$MEMO`** — `0xB20000000000000000000001BB894FF0C9e82bf3` (Base mainnet). Override with `MEMO_TOKEN_ADDRESS` or the per-call `token` param to operate on any B20.
 
 ## Install
 
@@ -41,7 +41,7 @@ Or any MCP client config:
       "args": ["/absolute/path/to/memo-mcp/dist/index.js"],
       "env": {
         "RPC_URL": "https://mainnet.base.org",
-        "MEMO_TOKEN_ADDRESS": "0xb20000000000000000000001bb894ff0c9e82bf3",
+        "MEMO_TOKEN_ADDRESS": "0xB20000000000000000000001BB894FF0C9e82bf3",
         "MEMO_PRIVATE_KEY": "0xDEDICATED_WALLET_KEY_FOR_SENDING",
         "MEMO_MAX_PER_SEND": "100",
         "MEMO_MAX_TOTAL": "1000"
